@@ -39,6 +39,10 @@ class App extends GetView<BottomNavController> {
             icon: ImageData(path: ImagePath.homeOff),
             activeIcon: ImageData(path: ImagePath.homeOn),
             label: 'upload'),
+        BottomNavigationBarItem(
+            icon: ImageData(path: ImagePath.calender),
+            activeIcon: ImageData(path: ImagePath.calender),
+            label: 'calender'),
       ],
     );
   }

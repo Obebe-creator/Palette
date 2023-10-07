@@ -18,4 +18,5 @@ class ImageData extends StatelessWidget {
 class ImagePath {
   static String get homeOn => 'assets/images/bottom_nav_home_on_icon.jpg';
   static String get homeOff => 'assets/images/bottom_nav_home_off_icon.jpg';
+  static String get calender => 'assets/images/bottom_nav_calender_icon.jpg';
 }
